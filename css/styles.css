@@ -1,26 +1,29 @@
 .logo-name {
     color: #4D5AE5;
+    font-family: Raleway, sans-serif;
 }
 body {
     font-family: Roboto, sans-serif;
     color: #434455;
     background-color: #FFF;
 }
-.link-nav {
+.link-start {
     color: #2E2F42;
     font-family: Raleway;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
-    line-height: 21px;
+    line-height: 21px; /* 116.667% */
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
 a {
     text-decoration: none;
+    color: #2E2F42;
+
 }
-.link-nav:hover, 
-.link-nav:focus {
+.link-start:hover, 
+.link-start:focus {
     text-decoration: underline;
 }
 .list {
@@ -37,8 +40,9 @@ a {
 .list:hover,
 .list:focus {
     text-decoration: underline;
+    color: #404bbf;
 }
-.link-contakt {
+.contakt {
     color: #434455;
     font-size: 16px;
     font-style: normal;
@@ -48,9 +52,10 @@ a {
     list-style-type: none;
     text-decoration: none;
 }
-.link-contakt:hover,
-.link-contakt:focus {
+.contakt:hover,
+.contakt:focus {
     text-decoration: underline;
+    color: #404bbf;
 }
 .hero {
     background-color: #2E2F42;
@@ -70,6 +75,8 @@ button {
     background-color: #4D5AE5;
     text-align: center;
     cursor: pointer;
+    font-weight: 500;
+    line-height: 1.5;
 }
 .service {
     color: #FFF;
@@ -79,6 +86,10 @@ button {
     line-height: 24px;
     /* 150% */
     letter-spacing: 0.64px;
+}
+.service:hover,
+.service:focus {
+    background-color: #404BBF;
 }
 h3 {
     font-size: 20px;
@@ -105,7 +116,7 @@ h2 {
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 40px; 
     /* 111.111% */
     letter-spacing: 0.72px;
     text-transform: capitalize;
@@ -123,6 +134,7 @@ h2 {
 }
 .section_3 {
     list-style-type: none;
+    background-color: #F4F4FD;
 }
 .section_4 {
     list-style-type: none;
@@ -130,7 +142,7 @@ h2 {
 footer {
     background-color: #2E2F42;
 }
-.link-foot {
+.paragraph {
     color: #F4F4FD;
     font-size: 18px;
     font-style: normal;
@@ -139,8 +151,9 @@ footer {
     /* 116.667% */
     letter-spacing: 0.54px;
     text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
 }
-.post-footer {
+.text_1 {
     color: #F4F4FD;
     font-size: 16px;
     font-style: normal;
