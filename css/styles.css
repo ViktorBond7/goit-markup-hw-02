@@ -1,61 +1,50 @@
 .logo-name {
-    color: #4D5AE5;
+    color: #2e2f42;
     font-family: Raleway, sans-serif;
+    line-height: 21px;
+        /* 116.667% */
 }
 body {
     font-family: Roboto, sans-serif;
     color: #434455;
     background-color: #FFF;
 }
+a {
+    text-decoration: none;
+}
+a:hover,
+a:focus {
+    text-decoration: underline;
+    color: #404bbf;
+}
+li {
+    list-style-type: none;
+}
 .link-start {
-    color: #2E2F42;
-    font-family: Raleway;
+    color: #4d5ae5;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
-    line-height: 21px; /* 116.667% */
+    line-height: 21px; 
+    /* 116.667% */
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
-a {
-    text-decoration: none;
-    color: #2E2F42;
 
-}
-.link-start:hover, 
-.link-start:focus {
-    text-decoration: underline;
-}
-.list {
+.social-links {
     color: #2E2F42;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.32px;
-    list-style-type: none;
-    text-decoration: none;
 }
-
-.list:hover,
-.list:focus {
-    text-decoration: underline;
-    color: #404bbf;
-}
-.contakt {
-    color: #434455;
+.contakt .social-links {
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.32px;
-    list-style-type: none;
-    text-decoration: none;
-}
-.contakt:hover,
-.contakt:focus {
-    text-decoration: underline;
-    color: #404bbf;
 }
 .hero {
     background-color: #2E2F42;
@@ -66,7 +55,7 @@ h1 {
     font-size: 56px;
     font-style: normal;
     font-weight: 700;
-    line-height: 60px;
+    line-height: 1.07px;
     /* 107.143% */
     letter-spacing: 1.12px;
 }
@@ -78,18 +67,15 @@ button {
     font-weight: 500;
     line-height: 1.5;
 }
-.service {
-    color: #FFF;
+.text-service {
+    color: #ffffff;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.5px;
     /* 150% */
-    letter-spacing: 0.64px;
-}
-.service:hover,
-.service:focus {
-    background-color: #404BBF;
+    letter-spacing: 0.04px;
+    text-align: center;
 }
 h3 {
     font-size: 20px;
@@ -99,10 +85,7 @@ h3 {
     /* 120% */
     letter-spacing: 0.4px;
 }
-.page-text {
-    list-style-type: none;
-}
-.page-text .section_2 {
+.text-section-dwa {
     color: #434455;
     font-size: 16px;
     font-style: normal;
@@ -112,17 +95,17 @@ h3 {
     letter-spacing: 0.32px;
 }
 h2 {
-    color: #2E2F42;
+    color: #2e2f42;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
-    line-height: 40px; 
+    line-height: 1,11px; 
     /* 111.111% */
     letter-spacing: 0.72px;
     text-transform: capitalize;
     text-align: center;
 }
-.section_3 .post {
+.page-our .title {
     color: #434455;
     font-size: 16px;
     font-style: normal;
@@ -130,20 +113,24 @@ h2 {
     line-height: 24px;
     /* 150% */
     letter-spacing: 0.32px;
-    list-style-type: none;
 }
-.section_3 {
-    list-style-type: none;
+.page-our {
     background-color: #F4F4FD;
 }
-.section_4 {
-    list-style-type: none;
+.text-portfolio {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.32px;
 }
 footer {
     background-color: #2E2F42;
 }
-.paragraph {
-    color: #F4F4FD;
+.link-studior {
+    color: #4d5ae5;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
@@ -151,9 +138,19 @@ footer {
     /* 116.667% */
     letter-spacing: 0.54px;
     text-transform: uppercase;
-    font-family: "Raleway", sans-serif;
 }
-.text_1 {
+.logo-studio {
+    color: #F4F4FD;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    /* 116.667% */
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+.title-studio {
     color: #F4F4FD;
     font-size: 16px;
     font-style: normal;
