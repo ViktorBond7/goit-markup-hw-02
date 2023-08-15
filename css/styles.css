@@ -2,8 +2,9 @@
     color: #2e2f42;
     font-family: Raleway, sans-serif;
     line-height: 1.17;
-    text-transform: uppercase;
         /* 116.667% */
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
 }
 body {
     font-family: Roboto, sans-serif;
@@ -111,8 +112,8 @@ font-style: normal;
     line-height: 1.11; 
     /* 111.111% */
     letter-spacing: 0.72px;
-    text-align: center;
     text-transform: capitalize;
+    text-align: center;
 }
 .page-our .title {
     font-size: 16px;
