@@ -11,10 +11,10 @@ body {
 }
 a {
     text-decoration: none;
-    font-style: normal;
+    
 }
-.social-links .social-links-inf:hover,
-.social-links .social-links-inf:focus {
+.social-links .social-links-link:hover,
+.social-links .social-links-link:focus {
     text-decoration: underline;
     color: #404bbf;
 }
@@ -32,7 +32,7 @@ li {
     letter-spacing: 0.54px;
 }
 
-.social-links .social-links-inf {
+.social-links-link {
     color: #2e2f42;
     font-size: 16px;
     font-style: normal;
@@ -40,16 +40,20 @@ li {
     line-height: 24px;
     letter-spacing: 0.32px;
 }
-.contakt .contakt-inf {
+
+.contakt {
+font-style: normal;
+}
+
+.contakt .contakt-link {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.32px;
-    font-style: normal;
     color: currentColor;
 }
-.contakt-inf:hover,
-.contakt-inf:focus {
+.contakt .contakt-link:hover,
+.contakt .contakt-link:focus {
     text-decoration: underline;
     color: #404bbf;
 }
@@ -67,26 +71,19 @@ li {
     letter-spacing: 1.12px;
 }
 .link-button {
-    border-radius: 4px;
     background-color: #4D5AE5;
     text-align: center;
     cursor: pointer;
     font-weight: 500;
     line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
 }
 .link-button:hover,
 .link-button:focus {
     background-color: #404BBF;
 }
-.hero .text-service {
-    color: #ffffff;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.5;
-    /* 150% */
-    letter-spacing: 0.04px;
-}
+
 .page-img {
     color: #2e2f42;
     font-size: 20px;
