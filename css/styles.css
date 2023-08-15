@@ -11,6 +11,7 @@ body {
 }
 a {
     text-decoration: none;
+    font-style: normal;
 }
 a:hover,
 a:focus {
@@ -32,7 +33,7 @@ li {
     text-transform: uppercase;
 }
 
-.social-links {
+.social-links .social-links-inf {
     color: #2e2f42;
     font-size: 16px;
     font-style: normal;
@@ -40,19 +41,19 @@ li {
     line-height: 24px;
     letter-spacing: 0.32px;
 }
-.contakt .social-links {
+.contakt .contakt-inf {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.32px;
     font-style: normal;
-    color: #434455;
+    color: currentColor;
 }
 .hero {
     background-color: #2E2F42;
     text-align: center;
 }
-h1 {
+.hero-title {
     color: #FFF;
     font-size: 56px;
     font-style: normal;
@@ -61,13 +62,17 @@ h1 {
     /* 107.143% */
     letter-spacing: 1.12px;
 }
-button {
+.link-button {
     border-radius: 4px;
     background-color: #4D5AE5;
     text-align: center;
     cursor: pointer;
     font-weight: 500;
     line-height: 1.5;
+}
+.link-button:hover,
+.link-button:focus {
+    background-color: #404BBF;
 }
 .text-service {
     color: #ffffff;
@@ -76,9 +81,10 @@ button {
     font-weight: 500;
     line-height: 1.5;
     /* 150% */
-    letter-spacing: 0.04px;
+    letter-spacing: 0.04em;
 }
-h3 {
+.page-img {
+    color: #2e2f42;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -87,7 +93,6 @@ h3 {
     letter-spacing: 0.4px;
 }
 .text-section-dwa {
-    color: #434455;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -95,7 +100,7 @@ h3 {
     /* 150% */
     letter-spacing: 0.32px;
 }
-h2 {
+.title-sect {
     color: #2e2f42;
     font-size: 36px;
     font-style: normal;
@@ -107,7 +112,6 @@ h2 {
     text-align: center;
 }
 .page-our .title {
-    color: #434455;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -126,12 +130,12 @@ h2 {
     /* 150% */
     letter-spacing: 0.32px;
 }
-footer {
+.Basement {
     background-color: #2E2F42;
 }
 .link-studio {
     color: #4D5AE5;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
@@ -142,7 +146,7 @@ footer {
 }
 .logo-studio {
     color: #F4F4FD;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
@@ -156,7 +160,7 @@ footer {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.17;
     /* 150% */
     letter-spacing: 0.32px;
 }
