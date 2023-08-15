@@ -13,8 +13,8 @@ a {
     text-decoration: none;
     font-style: normal;
 }
-a:hover,
-a:focus {
+.social-links .social-links-inf:hover,
+.social-links .social-links-inf:focus {
     text-decoration: underline;
     color: #404bbf;
 }
@@ -30,7 +30,6 @@ li {
     line-height: 1.17; 
     /* 116.667% */
     letter-spacing: 0.54px;
-    text-transform: uppercase;
 }
 
 .social-links .social-links-inf {
@@ -48,6 +47,11 @@ li {
     letter-spacing: 0.32px;
     font-style: normal;
     color: currentColor;
+}
+.contakt-inf:hover,
+.contakt-inf:focus {
+    text-decoration: underline;
+    color: #404bbf;
 }
 .hero {
     background-color: #2E2F42;
@@ -74,14 +78,14 @@ li {
 .link-button:focus {
     background-color: #404BBF;
 }
-.text-service {
+.hero .text-service {
     color: #ffffff;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 1.5;
     /* 150% */
-    letter-spacing: 0.04em;
+    letter-spacing: 0.04px;
 }
 .page-img {
     color: #2e2f42;
@@ -108,7 +112,6 @@ li {
     line-height: 1.11; 
     /* 111.111% */
     letter-spacing: 0.72px;
-    text-transform: capitalize;
     text-align: center;
 }
 .page-our .title {
@@ -121,6 +124,9 @@ li {
 }
 .page-our {
     background-color: #F4F4FD;
+}
+.page-our-img {
+    background-color: #FFFFFF;
 }
 .text-portfolio {
     font-size: 16px;
@@ -142,7 +148,6 @@ li {
     line-height: 21px;
     /* 116.667% */
     letter-spacing: 0.54px;
-    text-transform: uppercase;
 }
 .logo-studio {
     color: #F4F4FD;
@@ -150,17 +155,16 @@ li {
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
-    line-height: 21px;
+    line-height: 1.17;
     /* 116.667% */
     letter-spacing: 0.54px;
-    text-transform: uppercase;
 }
 .title-studio {
     color: #F4F4FD;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 1.17;
+    line-height: 1.5;
     /* 150% */
     letter-spacing: 0.32px;
 }
