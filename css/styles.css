@@ -48,7 +48,6 @@ button {
   line-height: 1.5;
   /* color: currentColor; */
   color: var(--primary-accent-color);
-  /* letter-spacing: 0.02em; */
 }
 
 .header-nav-link:hover,
@@ -61,11 +60,8 @@ button {
 }
 
 .address-link {
-  font-size: 16px;
   line-height: 1.5;
   color: var(--secondary-accent-color);
-  /* letter-spacing: 0.02em; */
-  /* color: currentColor; */
 }
 
 .address-link:hover,
@@ -82,7 +78,6 @@ button {
   font-size: 56px;
   line-height: 1.07;
   color: #fff;
-  letter-spacing: 0.02em;
   text-align: center;
 }
 
@@ -103,13 +98,11 @@ button {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
   color: var(--primary-accent-color);
 }
 
 .page-advantages {
   line-height: 1.5;
-  color: var(--secondary-accent-color);
 }
 
 .title-section-all {
@@ -118,7 +111,6 @@ button {
   line-height: 1.11;
   color: var(--primary-accent-color);
   text-align: center;
-  letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 
@@ -130,16 +122,12 @@ button {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
   text-transform: capitalize;
-  letter-spacing: 0.02em;
   color: var(--primary-accent-color);
 }
 
 .page-our-team {
   line-height: 1.5;
-  color: var(--secondary-accent-color);
-  font-size: 16px;
 }
 
 .item-our-team {
@@ -150,14 +138,12 @@ button {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--primary-accent-color);
 }
 
 .page-portfolio {
   line-height: 1.5;
-  color: var(--secondary-accent-color);
 }
 
 .basement {
