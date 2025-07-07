@@ -12,7 +12,7 @@ body {
   font-family: var(--primary-font);
   color: var(--secondary-accent-color);
   background-color: var(--primary-background-white-color);
-  /* letter-spacing: 0.02em; */
+  letter-spacing: 0.02em;
   font-size: 16px;
 }
 
@@ -48,6 +48,7 @@ button {
   line-height: 1.5;
   /* color: currentColor; */
   color: var(--primary-accent-color);
+  /* letter-spacing: 0.02em; */
 }
 
 .header-nav-link:hover,
@@ -63,6 +64,7 @@ button {
   font-size: 16px;
   line-height: 1.5;
   color: var(--secondary-accent-color);
+  /* letter-spacing: 0.02em; */
   /* color: currentColor; */
 }
 
